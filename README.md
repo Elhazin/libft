@@ -1,6 +1,6 @@
 # libft
-libft is My first project in 1337
-Some useful links for you : <br/>
+## libft is My first project in 1337
+### Some useful links for you : <br/>
 [objects file](https://stackoverflow.com/questions/7718299/whats-an-object-file-in-c#:~:text=An%20object%20file%20is%20just,debugging%20symbols%20and%20so%20forth.)<br/>
 [Makefile](https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/) <br/>
 [Makefile tutorial](https://makefiletutorial.com/)<br/>
