@@ -13,3 +13,6 @@
 [typecasting](https://byjus.com/gate/type-casting-in-c/#:~:text=Type%20Casting%20is%20basically%20a,want%20the%20program%20to%20do.)<br/>
 [typecasting](https://www.tutorialspoint.com/cprogramming/c_type_casting.htm)<br/>
 [type casting](https://en.wikipedia.org/wiki/Type_conversion)<br/>
+[scope of function](https://www.tutorialspoint.com/cprogramming/pdf/c_scope_rules.pdf)<br/>
+[file descriptor](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)<br/>
+[open function](https://pubs.opengroup.org/onlinepubs/007904875/functions/open.html)<br/>
