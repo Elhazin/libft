@@ -1,5 +1,6 @@
 # libft
-## libft is My first project in 1337
+## libft is My first project at 1337
+<h4>this project is an individual project at 1337 that requires us to re-create some C standard library functions including some additional ones that may be used later to build a library of useful functions for the rest of the program.</h4><br><br>
 ### Some useful links for you : <br/>
 [objects file](https://stackoverflow.com/questions/7718299/whats-an-object-file-in-c#:~:text=An%20object%20file%20is%20just,debugging%20symbols%20and%20so%20forth.)<br/>
 [Makefile](https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/) <br/>
