@@ -4,7 +4,7 @@
 
 Throughout this project, I sharpened my skills in C programming and gained a deeper understanding of how to manipulate memory and utilize pointers effectively. I also had to consider and implement various edge cases and error handling in each function.
 
-Overall, the libft project was a challenging and rewarding experience that allowed me to develop my skills in C programming and deepen my understanding of the language. I am confident that the skills and knowledge I gained from this project will serve me well in my future projects. : <br/>
+Overall, the libft project was a challenging and rewarding experience that allowed me to develop my skills in C programming and deepen my understanding of the language. I am confident that the skills and knowledge I gained from this project will serve me well in my future projects. <br/>
 <br>
 ## some resource that may help
 
