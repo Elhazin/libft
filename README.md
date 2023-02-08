@@ -1,7 +1,10 @@
 # libft
-## libft is My first project at 1337
-<h4>this project is an individual project at 1337 that requires us to re-create some C standard library functions including some additional ones that may be used later to build a library of useful functions for the rest of the program.</h4><br><br>
-### Some useful links for you : <br/>
+
+<h4>As a student at 1337school, I completed the libft project which involved creating a library of basic C functions. This project required me to implement a variety of functions including memory and string manipulation.
+
+Throughout this project, I sharpened my skills in C programming and gained a deeper understanding of how to manipulate memory and utilize pointers effectively. I also had to consider and implement various edge cases and error handling in each function.
+
+Overall, the libft project was a challenging and rewarding experience that allowed me to develop my skills in C programming and deepen my understanding of the language. I am confident that the skills and knowledge I gained from this project will serve me well in my future projects. : <br/>
 [objects file](https://stackoverflow.com/questions/7718299/whats-an-object-file-in-c#:~:text=An%20object%20file%20is%20just,debugging%20symbols%20and%20so%20forth.)<br/>
 [Makefile](https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/) <br/>
 [Makefile tutorial](https://makefiletutorial.com/)<br/>
