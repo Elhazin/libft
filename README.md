@@ -5,6 +5,9 @@
 Throughout this project, I sharpened my skills in C programming and gained a deeper understanding of how to manipulate memory and utilize pointers effectively. I also had to consider and implement various edge cases and error handling in each function.
 
 Overall, the libft project was a challenging and rewarding experience that allowed me to develop my skills in C programming and deepen my understanding of the language. I am confident that the skills and knowledge I gained from this project will serve me well in my future projects. : <br/>
+<br>
+## some resource that may help
+
 [objects file](https://stackoverflow.com/questions/7718299/whats-an-object-file-in-c#:~:text=An%20object%20file%20is%20just,debugging%20symbols%20and%20so%20forth.)<br/>
 [Makefile](https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/) <br/>
 [Makefile tutorial](https://makefiletutorial.com/)<br/>
