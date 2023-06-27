@@ -13,7 +13,7 @@
 #include "libft.h"
 
 size_t	ft_strlen(const char *str)
-{
+{ // This function counts the number of characters in a string.
 	size_t	a;
 
 	a = 0;

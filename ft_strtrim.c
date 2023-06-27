@@ -66,3 +66,5 @@ char	*ft_strtrim(char const *s1, char const *set)
 	help_function(s1, i, lenth, str);
 	return (str);
 }
+
+// This function allocates (with malloc(3)) and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.

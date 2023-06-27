@@ -13,7 +13,7 @@
 #include "libft.h"
 
 int	ft_isupper(int a)
-{
+{ // This function checks if the character is uppercase.
 	if (a >= 65 && a <= 90)
 		return (1);
 	return (0);

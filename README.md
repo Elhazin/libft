@@ -28,11 +28,11 @@ Overall, the libft project was a challenging and rewarding experience that allow
 [open function](https://pubs.opengroup.org/onlinepubs/007904875/functions/open.html)<br/>
 
 
-# What is libft?
+## What is libft?
 
 <p> libft is an individual project at 1337 school that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions that we will use in most of our C projects at 1337 school. </p 
 
-# Why libft?
+## Why libft?
 
 <p> This project will help us to have a deeper understanding of data structures and algorithms used in C. Also, it will help us to have a better understanding of the standard library functions and how to create our own. </p>
 
@@ -90,12 +90,12 @@ int ft_lstsize(t_list *lst);
 ```
 <p> Just an advice, if you are a 1337 student will need the bonus in other projects, I recommend you to do the bonus part of this project. </p>
 
-# Why do we allocate memory for the return value of ft_substr and ft_strtrim  and ft_strjoin ...?
+## Why do we allocate memory for the return value of ft_substr and ft_strtrim  and ft_strjoin ...?
 
 <p> Because we need to return a pointer to the first character of the string that we created in the function.  </p>
 <p> if we don't allocate memory for the return value, the string will be created in the stack and will be destroyed when the function returns. </p>
 
-# Why do we need to cast the return value of malloc?
+## Why do we need to cast the return value of malloc?
 
 <p> Because malloc returns a void pointer (void *), and we need to cast it to the type of the pointer that we want to return. </p> 
 <p> small note: in C, void * is a generic pointer that can be casted to any pointer type. </p>
@@ -103,6 +103,8 @@ int ft_lstsize(t_list *lst);
 <p> it will work without casting the return value of malloc, but it's not a good practice. </p>
 
 
-# How to use it?
+## How to use it?
 
 <p> To use the library, clone the repository and compile the files using the Makefile. </p>
+
+<p> you can find some explanations about funcrions in the files of those functions. </p>

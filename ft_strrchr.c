@@ -27,3 +27,4 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (NULL);
 }
+// This function returns a pointer to the last occurrence of the character c in the string str.

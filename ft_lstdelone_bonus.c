@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_lstdelone(t_list *lst, void (*del)(void *))
+void	ft_lstdelone(t_list *lst, void (*del)(void *)) // This function takes as a parameter an element and frees the memory of the element’s content using the function ’del’ given as a parameter and free the element.
 {
 	if (lst && del)
 	{

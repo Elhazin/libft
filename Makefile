@@ -6,24 +6,24 @@ bons = ft_lstsize_bonus.c ft_lstadd_back_bonus.c ft_lstnew_bonus.c ft_lstlast_bo
 		ft_lstadd_front_bonus.c ft_lstdelone_bonus.c
 
 CFLAGS = -Wall -Wextra -Werror
-NAME = libft.a
+NAME = libft.a # this is the name of the library that will be created
 
-O_SRC = $(SRC:.c=.o)
-O_BONS = $(bons:.c=.o)
+O_SRC = $(SRC:.c=.o) # this is the object files that will be created 
+O_BONS = $(bons:.c=.o) # this is the object files that will be created
 
-all : $(NAME)
+all : $(NAME) # this is the rule that will be executed when you type "make"
 
-$(NAME) : $(O_SRC)
-	ar -rc $(NAME) $(O_SRC)
+$(NAME) : $(O_SRC) # this is the rule that will be executed when you type "make" and that will create the library also it will create the object files that are needed byb calling the implicit rule 
+	ar -rc $(NAME) $(O_SRC)  # this is the command that will create the library
 
-clean :
-	rm -f $(O_SRC)
-	rm -f $(O_BONS)
+clean : # this is the rule that will be executed when you type "make clean"
+	rm -f $(O_SRC) # this is the command that will delete the object files
+	rm -f $(O_BONS) # this is the command that will delete the object files
 
-fclean : clean
-	rm  -f $(NAME)
+fclean : clean # this is the rule that will be executed when you type "make fclean" and that will delete the library also it will call the clean rule
+	rm  -f $(NAME) # this is the command that will delete the library
 
-bonus : $(O_BONS)
-	ar -rc $(NAME) $(O_BONS)
+bonus : $(O_BONS) $(O_SRC)
+	ar -rc $(NAME) $(O_BONS) $(O_SRC)
 
-re : fclean all
+re : fclean all # this is the rule that will be executed when you type "make re" and that will call the fclean rule and the all rule

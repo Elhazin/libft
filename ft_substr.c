@@ -14,7 +14,7 @@
 
 char	*ft_substr(char const *str, unsigned int start, size_t len)
 {
-	char	*ptr;
+	char	*ptr; 
 	size_t	a;
 	size_t	lenth;
 	size_t	strlenth;
@@ -40,3 +40,5 @@ char	*ft_substr(char const *str, unsigned int start, size_t len)
 	ptr[a] = '\0';
 	return (ptr);
 }
+// this function allocates (with malloc(3)) and returns a substring from the string ’s’. 
+// The substring begins at index ’start’ and is of maximum size ’len’.

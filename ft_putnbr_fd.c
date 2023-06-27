@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_putnbr_fd(int k, int fd)
+void	ft_putnbr_fd(int k, int fd) // This function outputs the integer ’n’ to the given file descriptor.
 {
 	if (k == -2147483647 -1)
 	{

@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_memcmp(const void *ptr1, const void *ptr2, size_t num)
+int	ft_memcmp(const void *ptr1, const void *ptr2, size_t num) 		// This function compares the first num bytes of the block of memory pointed by ptr1 to the first num bytes pointed by ptr2, returning zero if they all match or a value different from zero representing which is greater if they do not.
 {
 	unsigned char	*ptr;
 	unsigned char	*str;

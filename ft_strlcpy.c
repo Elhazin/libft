@@ -13,7 +13,7 @@
 #include "libft.h"
 
 size_t	ft_strlcpy(char *dest, const char *str, size_t size)
-{
+{ // This function copies the string str to the string dest.
 	size_t	x;
 	size_t	size_compare;
 

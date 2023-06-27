@@ -24,3 +24,4 @@ t_list	*ft_lstlast(t_list *lst)
 	}
 	return (lst);
 }
+// This function returns the last element of the list.

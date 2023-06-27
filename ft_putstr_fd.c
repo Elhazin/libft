@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-void	ft_putstr_fd(char *s, int fd)
+void	ft_putstr_fd(char *s, int fd) // This function outputs the string ’s’ to the given file descriptor.
 {
 	int	i;
 

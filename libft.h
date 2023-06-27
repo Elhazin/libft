@@ -10,18 +10,20 @@
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef LIBFT_H
+//this is the header file for the libft project
+
+#ifndef LIBFT_H  //This is the header guard, it prevents the header from being included more than once.
 # define LIBFT_H
-# include <stdlib.h>
-# include <unistd.h>
-# include <stdio.h>
+# include <stdlib.h> //This is the standard library header file.
+# include <unistd.h> //This is the header file that provides access to the POSIX operating system API.
+# include <stdio.h> //This is the header file that provides access to the standard input and output streams.
 
-typedef struct s_list
+typedef struct s_list //This is the structure of the linked list.
 {
-	void			*content;
-	struct s_list	*next;
+	void			*content; 
+	struct s_list	*next; 
 
-}t_list;
+}t_list; 
 
 int		ft_toupper(int a);
 int		ft_tolower(int a);
@@ -67,4 +69,4 @@ void	*ft_memchr(void *ptr, int value, size_t num);
 char	*ft_substr(char const *str, unsigned int start, size_t len);
 char	*ft_strjoin(char *str1, char *str2);
 
-#endif
+#endif // LIBFT_H

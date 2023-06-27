@@ -24,3 +24,4 @@ int	ft_lstsize(t_list *lst)
 	}
 	return (i);
 }
+// This function counts the number of elements in a list.

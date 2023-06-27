@@ -17,4 +17,4 @@ int	ft_isdigit(int a)
 	if (a <= '9' && a >= '0')
 		return (1);
 	return (0);
-}
+} // This function checks if the character is a digit, going from 0 to 9.

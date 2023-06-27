@@ -18,3 +18,4 @@ int	ft_tolower(int a)
 		return (a + 32);
 	return (a);
 }
+// This function converts the character to lowercase.

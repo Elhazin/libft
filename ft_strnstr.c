@@ -13,7 +13,7 @@
 #include "libft.h"
 
 char	*ft_strnstr(const char *str, const char *to_find, size_t len)
-{
+{ // This function locates the first occurrence of the null-terminated string to_find in the string str, where not more than len characters are searched.
 	size_t	i;
 	size_t	j;
 

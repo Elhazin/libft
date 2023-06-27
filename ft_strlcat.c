@@ -12,8 +12,9 @@
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *dest, const char *src, size_t size)
-{
+size_t	ft_strlcat(char *dest, const char *src, size_t size) 
+{ // 	i hate this function so much :(
+	// This function appends the string src to the end of dest. It will append at most size - strlen(dest) - 1 characters. It will then NUL-terminate, unless size is 0 or the original dest string was longer than size.
 	size_t	x;
 	size_t	y;
 	size_t	old_value;

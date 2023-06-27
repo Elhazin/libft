@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-char	*ft_strjoin(char *str1, char *str2)
+char	*ft_strjoin(char *str1, char *str2) // This function allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 {
 	int		lenth;
 	int		lenth2;

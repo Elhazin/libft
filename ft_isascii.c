@@ -12,7 +12,7 @@
 
 #include "libft.h"
 
-int	ft_isascii(int a)
+int	ft_isascii(int a) // This function checks if the character is a 7-bit unsigned char, going from 0 to 127. 
 {
 	if (a <= 127 && a >= 0)
 		return (1);

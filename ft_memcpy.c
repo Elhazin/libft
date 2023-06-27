@@ -12,8 +12,8 @@
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t i)
-{
+void	*ft_memcpy(void *dest, const void *src, size_t i) 
+{ // This function copies n bytes from memory area src to memory area dest.
 	char	*s;
 	char	*di;
 	size_t	b;
