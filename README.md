@@ -1,5 +1,8 @@
 # libft
 
+
+
+
 <h4>As a student at 1337school, I completed the libft project which involved creating a library of basic C functions. This project required me to implement a variety of functions including memory and string manipulation.
 
 Throughout this project, I sharpened my skills in C programming and gained a deeper understanding of how to manipulate memory and utilize pointers effectively. I also had to consider and implement various edge cases and error handling in each function.
@@ -23,3 +26,83 @@ Overall, the libft project was a challenging and rewarding experience that allow
 [scope of function](https://www.tutorialspoint.com/cprogramming/pdf/c_scope_rules.pdf)<br/>
 [file descriptor](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)<br/>
 [open function](https://pubs.opengroup.org/onlinepubs/007904875/functions/open.html)<br/>
+
+
+# What is libft?
+
+<p> libft is an individual project at 1337 school that requires us to re-create some standard C library functions including some additional ones that can be used later to build a library of useful functions that we will use in most of our C projects at 1337 school. </p 
+
+# Why libft?
+
+<p> This project will help us to have a deeper understanding of data structures and algorithms used in C. Also, it will help us to have a better understanding of the standard library functions and how to create our own. </p>
+
+# What's in it?
+
+<p> The project contains the following functions: </p>
+
+```c
+int ft_atoi(const char *str);
+void *ft_bzero(void *s, size_t n);
+void *ft_calloc(size_t count, size_t size);
+int ft_isalnum(int c);
+int ft_isalpha(int c);
+int ft_isascii(int c);
+int ft_isdigit(int c);
+int ft_isprint(int c);
+char *ft_itoa(int n);
+void *ft_memccpy(void *dest, const void *src, int c, size_t n);
+void *ft_memchr(const void *s, int c, size_t n);
+int ft_memcmp(const void *s1, const void *s2, size_t n);
+void *ft_memcpy(void *dest, const void *src, size_t n);
+void *ft_memmove(void *dest, const void *src, size_t n);
+void *ft_memset(void *s, int c, size_t n);
+void ft_putchar_fd(char c, int fd);
+void ft_putendl_fd(char *s, int fd);
+void ft_putnbr_fd(int n, int fd);
+void ft_putstr_fd(char *s, int fd);
+char **ft_split(char const *s, char c);
+char *ft_strchr(const char *s, int c);
+char *ft_strdup(const char *s1);
+char *ft_strjoin(char const *s1, char const *s2);
+size_t ft_strlcat(char *dst, const char *src, size_t dstsize);
+size_t ft_strlcpy(char *dst, const char *src, size_t dstsize);
+size_t ft_strlen(const char *s);
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
+int ft_strncmp(const char *s1, const char *s2, size_t n);
+char *ft_strnstr(const char *haystack, const char *needle, size_t len);
+char *ft_strrchr(const char *s, int c);
+char *ft_strtrim(char const *s1, char const *set);
+char *ft_substr(char const *s, unsigned int start, size_t len);
+int ft_tolower(int c);
+int ft_toupper(int c);
+```
+and the following functions that are not part of the mandatory part of the project:
+```c
+void ft_lstadd_back(t_list **lst, t_list *new);
+void ft_lstadd_front(t_list **lst, t_list *new);
+void ft_lstclear(t_list **lst, void (*del)(void*));
+void ft_lstdelone(t_list *lst, void (*del)(void*));
+void ft_lstiter(t_list *lst, void (*f)(void *));
+t_list *ft_lstlast(t_list *lst);
+t_list *ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+t_list *ft_lstnew(void *content);
+int ft_lstsize(t_list *lst);
+```
+<p> Just an advice, if you are a 1337 student will need the bonus in other projects, I recommend you to do the bonus part of this project. </p>
+
+# Why do we allocate memory for the return value of ft_substr and ft_strtrim  and ft_strjoin ...?
+
+<p> Because we need to return a pointer to the first character of the string that we created in the function.  </p>
+<p> if we don't allocate memory for the return value, the string will be created in the stack and will be destroyed when the function returns. </p>
+
+# Why do we need to cast the return value of malloc?
+
+<p> Because malloc returns a void pointer (void *), and we need to cast it to the type of the pointer that we want to return. </p> 
+<p> small note: in C, void * is a generic pointer that can be casted to any pointer type. </p>
+
+<p> it will work without casting the return value of malloc, but it's not a good practice. </p>
+
+
+# How to use it?
+
+<p> To use the library, clone the repository and compile the files using the Makefile. </p>
