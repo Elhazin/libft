@@ -26,6 +26,7 @@ Overall, the libft project was a challenging and rewarding experience that allow
 [scope of function](https://www.tutorialspoint.com/cprogramming/pdf/c_scope_rules.pdf)<br/>
 [file descriptor](https://www.geeksforgeeks.org/input-output-system-calls-c-create-open-close-read-write/)<br/>
 [open function](https://pubs.opengroup.org/onlinepubs/007904875/functions/open.html)<br/>
+[This book is awesome](http://cslibrary.stanford.edu/101/EssentialC.pdf)<br/>
 
 
 ## What is libft?
