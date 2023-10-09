@@ -11,6 +11,9 @@ Overall, the libft project was a challenging and rewarding experience that allow
 <br>
 ## some resource that may help
 
+In the 42 journey, our first project is 'libft.' To excel in it, I did a lot of reading to build my knowledge. I focused on helpful resources like old YouTube tutorials and books. For instance, I found a great <a href="http://cslibrary.stanford.edu/106/" target="_blank">book</a> that explains pointers well. Additionally, there's a useful <a href="http://cslibrary.stanford.edu/102/PointersAndMemory.pdf" target="_blank">PDF</a> about pointers and memory. You can find more valuable information on this <a href="http://cslibrary.stanford.edu/" target="_blank">website</a>. For advanced C programming, this <a href="https://users.ece.utexas.edu/~valvano/embed/" target="_blank">website</a> is also worth exploring
+
+
 [objects file](https://stackoverflow.com/questions/7718299/whats-an-object-file-in-c#:~:text=An%20object%20file%20is%20just,debugging%20symbols%20and%20so%20forth.)<br/>
 [Makefile](https://www.geeksforgeeks.org/how-to-use-make-utility-to-build-c-projects/) <br/>
 [Makefile tutorial](https://makefiletutorial.com/)<br/>
